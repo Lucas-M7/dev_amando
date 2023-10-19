@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500;10..48,600;10..48,700;10..48,800&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    background-image: url(./assets/background.gif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.conteudo{
+    background-color: rgba(255, 255, 255, 0.605);
+    border-radius: 20px;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.337);
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+h1{
+    color: white;
+    margin-bottom: 30px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.337);
+}
+
+button{
+    background-color: rgba(212, 13, 13, 0.661);
+    border: none;
+    text-align: center;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 3px 16px;
+    border-radius: 28px;
+    color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.229);
+    transition: all 0.3s;
+}
+
+button:hover{
+    background-color: rgb(232, 22, 22);
+    transform: translateY(-5px);
+}
+
+button:focus{
+    outline: none;
+}
